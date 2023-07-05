@@ -10,7 +10,7 @@ RUN ["chisel", "cut", "--root", "/staging", \
     "base-files_base", \
     "base-files_release-info", \
     "ca-certificates_data", \
-    "libc6_libs" ]
+    "libstdc++6_libs" ]
 # Runs the "chisel" command with the "cut" option, setting the root directory to "/staging" and cutting the specified files/directories
 
 FROM scratch
